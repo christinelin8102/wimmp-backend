@@ -11,6 +11,14 @@ TODO: Guide users through getting your code up and running on their own system. 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
 
+# Get Started
+1. 從git下下來後，pycharm Configuration指定Script為專案中的applicaton.py
+2. Terminal執行:
+	2-1. python -m venv tutorial-env
+	2-2. Configuration的Interpreter設定環境為tutorial-env
+	2-3. tutorial-env\Scripts\activate.bat (windows) / source tutorial-env/bin/activate(mac)
+	2-4. pip install -r requirements.txt
+
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
 
