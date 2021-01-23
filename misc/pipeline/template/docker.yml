@@ -1,0 +1,20 @@
+parameters:
+- name: VERSION_NUM
+  default: '0.0.1.$(Build.BuildNumber)'
+  type: string
+- name: stage
+  default: dev
+  type: string
+- name: tags
+  default: latest
+  type: string
+
+steps:
+- task: Docker@2
+  displayName: 'Build & Publish image'
+  inputs:
+    containerRegistry: 'mmp-repo'
+    repository: 'core-backend'
+    command: 'buildAndPush'
+    Dockerfile: './Dockerfile'
+    tags: ${{ parameters.tags }}
