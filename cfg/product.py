@@ -12,10 +12,10 @@
 #
 # MJD_DIALCT = "mssql"
 # MJD_DRIVER = "pymssql"
-# MJD_HOST = "39.108.191.100"
+# MJD_HOST = "127.0.0.1"
 # MJD_PORT = "1433"
 # MJD_USERNAME = "sa"
-# MJD_PASSWORD = "wr2018!@#"
+# MJD_PASSWORD = "test123"
 # MJD_DATABASE_BIZ = "medjaden_biz"
 # MJD_DATABASE_SYS = "medjaden_sys"
 # MJD_BIZ_URI = "{}+{}://{}:{}@{}:{}/{}?charset=utf8".format(MJD_DIALCT,MJD_DRIVER,MJD_USERNAME,MJD_PASSWORD,MJD_HOST,MJD_PORT,MJD_DATABASE_BIZ)
